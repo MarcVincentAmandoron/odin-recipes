@@ -1,1 +1,2 @@
 # odin-recipes
+This website is for the basic recipe website project from The Odin Project online bootcamp. By building this website I will have shown how to create a standard html boilerplate, how to use elements such as titles, headings, paragraph, bold, italics, links, and images. 
