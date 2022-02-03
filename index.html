@@ -5,24 +5,72 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Basic Recipe List</title>
-        <link href="css/styles.css" rel="stylesheets">
+      
+        <style>
+            h1 {
+                font-family: "Times New Roman", sans-serif;
+                text-align: center;
+                size: 20px;
+                color: black;
+                background-color: rgb(153,255,255);
+            }
+
+            img {
+                height: auto;
+                width: 300px;
+            }
+
+            .img-left {
+                float: left;
+                padding: 0 20px 20px 0;
+            }
+
+            .left {
+                text-align: left;
+            }
+
+            .right {
+                text-align: right;
+            }
+
+            .ula {
+                list-style-position: inside;
+            }
+
+            .bck {
+                background-color: beige;
+                padding: 20px 20px 20px 20px;
+            }
+        </style>
     </head>
 
     <body>
         <h1>The Staple Foods of My Childhood!</h1>
-        <img src="img/baby.jpeg" alt="random asian baby">
+    
+    <div class="bck">
+        <div class="img-left">
+            <img src="img/baby.jpeg" alt="random asian baby">
+        </div>
 
-        <p>
-            Below are a list of dishes that I like to eat. THey are relatively simple and should take approximately less than 15 minutes; however, Pumbaa's Humba should take a little bit above an hour. I hope you find 
+        <div class="left">
+            <p>
+            Below are a list of dishes that I like to eat. They are relatively simple and should take approximately less than 15 minutes; however, Pumbaa's Humba should take a little bit above an hour. I hope you find 
             my recipes entertaining and delicious!
-        </p>
+            </p>
+        </div>
 
         <h3>Recipes</h3>
-        <ul>
+        <div class="ula">
+            <ul>
             <li><a href="recipes/humba.html">Pumbaa's Humba</a></li>
             <li><a href="recipes/pbj.html">Legendary PB&J</a></li>
             <li><a href="recipes/fancyramen.html">Fancy Ramen</a></li>
-        </ul>
+            </ul>
+
+        </div>
+    </div>
+       
+
     </body>
 
     
