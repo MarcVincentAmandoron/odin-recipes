@@ -1,0 +1,12 @@
+h1 {
+    font-family: "Times New Roman", sans-serif;
+    text-align: center;
+    size: 20px;
+    color: black;
+    background-color: rgb(153,255,255);
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
