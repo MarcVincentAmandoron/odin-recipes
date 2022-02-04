@@ -1,0 +1,21 @@
+.heading {
+    text-align: center;
+    background-color: beige;
+    padding: 20px 20px 20px 20px;
+}
+
+img {
+    height: auto;
+    width: 300px;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.bck {
+    background-color: rgb(196,164,132);
+    padding: 20px 20px 20px 20px;
+}
+
+ul {
+    list-style-position: inside;
+}
