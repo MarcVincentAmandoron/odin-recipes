@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    background-color: beige;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    font-size: 32px;
+    padding: 20px 20px 20px 20px;
+}
+
+img {
+    height: auto;
+    width: 450px;
+    float: right;
+    padding: 20px 10px 10px 10px;
+}
+
+
+p,
+li {
+    font-family: "Times New Roman";
+    font-size: 18px;
+}
+
+.bck {
+    background-color: rgb(196,164,132);
+    padding: 10px 15px 15px 15px;
+}
+
+
+
+
